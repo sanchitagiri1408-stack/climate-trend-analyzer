@@ -404,9 +404,8 @@ After studying or extending this project, a beginner can explain and demonstrate
 
 ## Author
 
-**Author:** Your Name  
-**Portfolio:** `https://github.com/your-username`  
-**LinkedIn:** `https://www.linkedin.com/in/your-username/`
+**Author:** Sanchita Giri
+**LinkedIn:** `linkedin.com/in/sanchita-vijay-giri-28563b3b0`
 
 Replace these placeholders before publishing the repository. For a guided walkthrough and interview preparation, see [`docs/PROJECT_GUIDE.md`](docs/PROJECT_GUIDE.md). For a short live presentation, see [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md).
 
