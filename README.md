@@ -405,7 +405,7 @@ After studying or extending this project, a beginner can explain and demonstrate
 ## Author
 
 ## Author
-*Jayesh Rathi* — 3rd Year CSE Student, Jawaharlal Darda Institute of Engineering & Technology, Yavatmal  
+*Sanchita Giri* — 3rd Year CSE Student, Jawaharlal Darda Institute of Engineering & Technology, Yavatmal  
 [LinkedIn](linkedin.com/in/sanchita-vijay-giri-28563b3b0) 
 
 
