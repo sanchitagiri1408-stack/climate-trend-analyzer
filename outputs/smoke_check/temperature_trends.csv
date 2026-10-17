@@ -1,0 +1,4 @@
+region,start_year,end_year,years_in_model,slope_c_per_year,intercept_c,r_squared,first_year_mean_temperature_c,last_year_mean_temperature_c,trend_direction
+Central,2022,2022,1,0.0,18.12527029225521,0.0,18.12527029225521,18.12527029225521,stable
+North,2022,2022,1,0.0,13.784340304865973,0.0,13.784340304865973,13.784340304865973,stable
+South,2022,2022,1,0.0,22.087306396427007,0.0,22.087306396427007,22.087306396427007,stable

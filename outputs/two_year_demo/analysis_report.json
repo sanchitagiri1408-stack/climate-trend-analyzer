@@ -1,0 +1,200 @@
+{
+  "config": {
+    "start_date": "2020-01-01",
+    "end_date": "2021-12-31",
+    "regions": [
+      "North",
+      "Central",
+      "South"
+    ],
+    "random_seed": 7,
+    "output_dir": "outputs\\two_year_demo"
+  },
+  "selected_region": null,
+  "data_quality": {
+    "rows_before": 2193,
+    "rows_after": 2193,
+    "invalid_rows_dropped": 0,
+    "missing_values_before": {
+      "temperature_c": 18,
+      "rainfall_mm": 12,
+      "humidity_pct": 26
+    },
+    "missing_values_after": {
+      "temperature_c": 0,
+      "rainfall_mm": 0,
+      "humidity_pct": 0
+    },
+    "imputed_rows": 55
+  },
+  "summary_rows": {
+    "annual": 6,
+    "monthly": 72,
+    "anomalies": 2193,
+    "projection": 21
+  },
+  "anomaly_counts": {
+    "detected_temperature_anomalies": 14,
+    "injected_anomaly_rows": 15
+  },
+  "trends": [
+    {
+      "region": "Central",
+      "start_year": 2020,
+      "end_year": 2021,
+      "years_in_model": 2,
+      "slope_c_per_year": -0.063356498,
+      "intercept_c": 146.0514273703,
+      "r_squared": 1.0,
+      "first_year_mean_temperature_c": 18.0713013258,
+      "last_year_mean_temperature_c": 18.0079448277,
+      "trend_direction": "cooling"
+    },
+    {
+      "region": "North",
+      "start_year": 2020,
+      "end_year": 2021,
+      "years_in_model": 2,
+      "slope_c_per_year": 0.0066502152,
+      "intercept_c": 0.338660669,
+      "r_squared": 1.0,
+      "first_year_mean_temperature_c": 13.7720954702,
+      "last_year_mean_temperature_c": 13.7787456855,
+      "trend_direction": "stable"
+    },
+    {
+      "region": "South",
+      "start_year": 2020,
+      "end_year": 2021,
+      "years_in_model": 2,
+      "slope_c_per_year": 0.1295195672,
+      "intercept_c": -239.7345313769,
+      "r_squared": 1.0,
+      "first_year_mean_temperature_c": 21.8949943645,
+      "last_year_mean_temperature_c": 22.0245139317,
+      "trend_direction": "warming"
+    }
+  ],
+  "projection_preview": [
+    {
+      "region": "Central",
+      "year": 2022,
+      "projected_temperature_c": 17.9445883297,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "Central",
+      "year": 2023,
+      "projected_temperature_c": 17.8812318317,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "Central",
+      "year": 2024,
+      "projected_temperature_c": 17.8178753336,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "Central",
+      "year": 2025,
+      "projected_temperature_c": 17.7545188356,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "Central",
+      "year": 2026,
+      "projected_temperature_c": 17.6911623375,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "North",
+      "year": 2022,
+      "projected_temperature_c": 13.7853959007,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "North",
+      "year": 2023,
+      "projected_temperature_c": 13.792046116,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "North",
+      "year": 2024,
+      "projected_temperature_c": 13.7986963312,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "North",
+      "year": 2025,
+      "projected_temperature_c": 13.8053465465,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "North",
+      "year": 2026,
+      "projected_temperature_c": 13.8119967617,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "South",
+      "year": 2022,
+      "projected_temperature_c": 22.1540334989,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "South",
+      "year": 2023,
+      "projected_temperature_c": 22.2835530661,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "South",
+      "year": 2024,
+      "projected_temperature_c": 22.4130726333,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "South",
+      "year": 2025,
+      "projected_temperature_c": 22.5425922005,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    },
+    {
+      "region": "South",
+      "year": 2026,
+      "projected_temperature_c": 22.6721117677,
+      "actual_temperature_c": null,
+      "forecast_type": "projection"
+    }
+  ],
+  "outputs": {
+    "raw_csv": "outputs\\two_year_demo\\synthetic_climate_data.csv",
+    "cleaned_csv": "outputs\\two_year_demo\\cleaned_climate_data.csv",
+    "annual_summary_csv": "outputs\\two_year_demo\\annual_summary.csv",
+    "monthly_summary_csv": "outputs\\two_year_demo\\monthly_summary.csv",
+    "trend_summary_csv": "outputs\\two_year_demo\\temperature_trends.csv",
+    "anomalies_csv": "outputs\\two_year_demo\\temperature_anomalies.csv",
+    "projection_csv": "outputs\\two_year_demo\\temperature_projection.csv",
+    "annual_temperature_png": "outputs\\two_year_demo\\annual_temperature.png",
+    "monthly_rainfall_png": "outputs\\two_year_demo\\monthly_rainfall.png",
+    "anomalies_png": "outputs\\two_year_demo\\temperature_anomalies.png",
+    "projection_png": "outputs\\two_year_demo\\temperature_projection.png",
+    "report_json": "outputs\\two_year_demo\\analysis_report.json",
+    "report_markdown": "outputs\\two_year_demo\\analysis_report.md"
+  }
+}

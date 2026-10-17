@@ -1,0 +1,2 @@
+region,start_year,end_year,years_in_model,slope_c_per_year,intercept_c,r_squared,first_year_mean_temperature_c,last_year_mean_temperature_c,trend_direction
+North,2015,2024,10,0.06043861712270434,-107.8909012038645,0.6418991373800504,14.042883098949956,14.44486842061684,warming
